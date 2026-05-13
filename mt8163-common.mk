@@ -4,6 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# AAPT
+PRODUCT_AAPT_CONFIG := normal mdpi
+PRODUCT_AAPT_PREF_CONFIG := mdpi
+
 # Bootanimation
 TARGET_BOOTANIMATION_HALF_RES := true
 
