@@ -9,6 +9,10 @@ PRODUCT_AAPT_CONFIG := normal mdpi
 PRODUCT_AAPT_PREF_CONFIG := mdpi
 TARGET_RECOVERY_DENSITY := hdpi
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    libbluetooth_mtk_pure
+
 # Bootanimation
 TARGET_BOOTANIMATION_HALF_RES := true
 
