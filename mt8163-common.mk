@@ -90,7 +90,8 @@ PRODUCT_COPY_FILES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    libamazonlog
+    libamazonlog \
+    libutils_shim
 
 # Touchscreen
 PRODUCT_COPY_FILES += \
