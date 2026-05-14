@@ -77,6 +77,7 @@ PRODUCT_PACKAGES += \
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.mt8163 \
+    init.insmod.sh \
     init.project.rc \
     init.mt8163.rc \
     init.mt8163.usb.rc \
