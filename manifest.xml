@@ -11,7 +11,7 @@
     <hal format="hidl">
         <name>android.hardware.camera.provider</name>
         <transport>hwbinder</transport>
-        <fqname>@2.4::ICameraProvider/internal/0</fqname>
+        <fqname>@2.4::ICameraProvider/legacy/0</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.drm</name>
@@ -61,10 +61,5 @@
         <name>fireos.hardware.amazonthermal</name>
         <transport>hwbinder</transport>
         <fqname>@1.1::IAmazonThermal/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.mediatek.hardware.camera.ccap</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::ICCAPControl/internal/0</fqname>
     </hal>
 </manifest>
